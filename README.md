@@ -9,6 +9,14 @@ A lightweight Node.js bot that fetches the daily New York Times Wordle solution 
 * **Discord Developer Account**
 * **Oracle Cloud Instance** (or any 24/7 server)
 
+## Requirements
+```
+    "discord.js": "^14.25.1",
+    "node-cron": "^4.2.1"
+```
+
+
+
 ## 1. Discord Developer Portal Setup
 
 1.  Go to the [Discord Developer Portal](https://discord.com/developers/applications).
