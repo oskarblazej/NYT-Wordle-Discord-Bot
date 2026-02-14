@@ -25,7 +25,7 @@ A lightweight Node.js bot that fetches the daily New York Times Wordle solution 
 
 1.  **Clone the repository:**
     ```bash
-    git clone <your-repository-url>
+    git clone <insert link to this repo>
     cd wordle-bot
     ```
 
