@@ -69,11 +69,9 @@ To ensure the bot remains online after you close your SSH session, use **PM2**:
     * `pm2 logs wordle-bot` - View real-time output and errors.
     * `pm2 restart wordle-bot` - Restart after code changes.
 
-## 4. Security & Best Practices
-
-* **Secret Management:** Never commit your `.env` file to GitHub. Ensure `.gitignore` includes `.env` and `node_modules/`.
+## 4. Best Practices
 * **Server Time:** Oracle Cloud instances typically use **UTC** time. If you want the bot to post at 14:00 CET/CEST, adjust the cron schedule accordingly (e.g., `0 13 * * *` or `0 12 * * *`).
-* **Token Safety:** If your token is ever exposed publicly, reset it immediately in the Developer Portal.
+
 
 ## License
 MIT
